@@ -1,0 +1,19 @@
+.otp {
+  display: flex;
+  gap: 0.5rem;
+  font-family: system-ui, sans-serif;
+}
+
+.otp__box {
+  width: 2.5rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.otp__box:focus {
+  outline: 2px solid #1a56db;
+  outline-offset: 1px;
+}

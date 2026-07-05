@@ -1,0 +1,19 @@
+.star-rating {
+  display: inline-flex;
+  gap: 0.25rem;
+  font-family: system-ui, sans-serif;
+}
+
+.star-rating__star {
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #ccc;
+  padding: 0;
+}
+
+.star-rating__star--active {
+  color: #f5b301;
+}

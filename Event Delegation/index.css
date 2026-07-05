@@ -1,0 +1,17 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+.container{
+  width: 80%;
+  height: 70%;
+  margin: 5%;
+}
+
+.container:hover{
+  cursor: pointer;
+}
+

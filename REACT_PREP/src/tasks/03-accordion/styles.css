@@ -1,0 +1,44 @@
+.accordion {
+  max-width: 480px;
+  margin: 2rem auto;
+  font-family: system-ui, sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion__item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.accordion__item:last-child {
+  border-bottom: none;
+}
+
+.accordion__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  border: none;
+  padding: 0.9rem 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion__icon {
+  transition: transform 0.2s ease;
+}
+
+.accordion__content {
+  padding: 0 1.1rem;
+  overflow: hidden;
+}
+
+.accordion__content p {
+  padding: 0.9rem 0;
+  margin: 0;
+  color: #444;
+}
