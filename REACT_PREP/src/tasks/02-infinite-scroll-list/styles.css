@@ -2,6 +2,9 @@
   max-width: 480px;
   margin: 2rem auto;
   font-family: system-ui, sans-serif;
+  /* border:1px solid red; */
+  height: 15vh;
+  overflow-y: scroll;
 }
 
 .feed__list {
@@ -17,6 +20,7 @@
 
 .feed__sentinel {
   height: 1px;
+   border:1px solid pink;
 }
 
 .feed__status {
